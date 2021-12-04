@@ -15,7 +15,7 @@ const Login = () => {
 
   //import generic state from context and give it a user name
   // we will only use setUser from the context so we mark the user with an underscore
-  const [_user, setUser] = useContext(Context);
+  const [setUser] = useContext(Context);
 
   //navigate programmatically hook
   const navigate = useNavigate();
